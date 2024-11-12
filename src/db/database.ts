@@ -1,5 +1,5 @@
 // Make sure to install the 'postgres' package
-import { env } from './env';
+import { env } from '../env';
 import { PostgresJsDatabase, drizzle } from 'drizzle-orm/postgres-js';
 import * as schema from './schema';
 import postgres from 'postgres';
